@@ -1,0 +1,115 @@
+/*********************
+GENERAL
+*********************/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+P {
+    font-size: 0.9rem;
+    line-height: 1.75rem;
+}
+
+.margin-section {
+    margin-top: 5rem;
+    margin-bottom: 5em;
+}
+
+.mt-custom-17rem {
+    margin-top: 17rem;
+}
+
+.mt-custom-8rem {
+    margin-top: 8rem;
+}
+
+.mt-custom-7rem {
+    margin-top: 7rem;
+}
+
+/*********************
+NAVBAR
+*********************/
+#main-navbar.scrolled {
+    background-color: rgba(255 , 255 , 255 , 0.96); /*in esadecimale è: #c1ebf7*/
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , 0.5);
+    transition: all 500ms;
+}
+
+#nav-logo {
+    width: 100px;
+}
+
+nav .navbar-nav li a{
+    color: #ff9100 !important;
+    }
+
+/*********************
+HEADER
+*********************/
+#header-revolver {
+    height: 100vh;
+    background-image: url(../imgs/10.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.arrow-header {
+    width: 50px;
+}
+
+/*********************
+FERITA APERTA
+*********************/
+.carousel-item {
+    height: calc(100vh - 84.91px);
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.panel {
+    background: rgba(16, 90, 109, 0.7);
+    padding: 2% 4%;
+    position: absolute;
+    margin-top: 4rem;
+    z-index: 999;
+    color: white;
+}
+
+/*********************
+TORNARE AD ABITARE
+*********************/
+#abitare-revolver {
+    height: 100vh;
+    background-image: url(../imgs/13.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0;
+    color: white;
+}
+
+.last-payoff {
+    font-size: 2.5rem;
+}
+
+/*********************
+CONTACTS
+*********************/
+#contacts {
+    height: 100vh;
+    background-color: #105a6d;
+    color: white;
+}
