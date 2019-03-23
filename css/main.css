@@ -70,7 +70,6 @@ FERITA APERTA
 *********************/
 .carousel-item {
     height: calc(100vh - 84.91px);
-    min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -109,7 +108,18 @@ TORNARE AD ABITARE
 CONTACTS
 *********************/
 #contacts {
-    height: 100vh;
     background-color: #105a6d;
     color: white;
+}
+
+.img-icon {
+    width: 30px;
+}
+
+#contacts .container a {
+    font-size: 0.8rem;
+}
+
+h6 {
+    font-size: 0.8rem;
 }
