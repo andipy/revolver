@@ -15,22 +15,20 @@ P {
     margin-bottom: 5em;
 }
 
-@media screen and ( max-width: 576px ) {
-    .mt-custom-17rem {
-        margin-top: 10rem;
-    }
+.mt-custom-16rem {
+    margin-top: 16rem;
 }
 
-.mt-custom-17rem {
-    margin-top: 17rem;
+.mt-custom-14rem {
+    margin-top: 14rem;
+}
+
+.mt-custom-10rem {
+    margin-top: 10rem;
 }
 
 .mt-custom-8rem {
     margin-top: 8rem;
-}
-
-.mt-custom-7rem {
-    margin-top: 7rem;
 }
 
 /*********************
