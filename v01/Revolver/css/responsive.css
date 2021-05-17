@@ -1,0 +1,282 @@
+@media screen and (min-width: 850px) {
+
+    /***********************************
+    HEADER
+    ***********************************/
+
+    #header {
+        position: fixed;
+        width: 100vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #header .logo {
+        margin: 0;
+        display: inline-block;
+        padding: 0 0 0 200px;
+        font-size: 2.5em;
+    }
+
+    #header nav {
+        padding: 0 180px 0 0;
+        float: right;
+    }
+
+    
+    #header nav li {
+        display: inline-block;
+        padding: 26px 20px 0 15px;
+    }
+
+
+    /***********************************
+    BANNER
+    ***********************************/
+
+
+    #banner h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 260px;
+        width: 80%;
+        font-size: 4em;
+    }
+    
+    #banner h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 140px;
+        width: 80%;
+        font-size: 2em;
+    }
+
+    /*
+    #banner .btn {
+        padding: 10px 60px;
+        margin-top: 50px;
+        border-radius: 5px;
+        color: #ffffff;
+        border-color: transparent;
+        font-size: 1.1em;
+        box-shadow: 0px 3px 3px rgb(0 , 0 , 0 , 0.4);
+    }
+    */
+
+    /***********************************
+    SECTION - OUR VALUES - WHO WE ARE
+    ***********************************/
+
+    .wrapper-who {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    #gallery-who .icon-block {
+        padding: 60px 0 100px 0;
+        display: inline-block;
+        text-align: center;
+        float: left;
+        width: 25%;
+        margin: 0 4.166666666%;
+    }
+
+    #gallery-who .icon-block h2 {
+        text-align: left;
+        font-weight: 400;
+        font-size: 2.5em;       
+    }
+    
+    /*
+    #gallery-who .icon-block h4 {
+        font-weight: 400;
+        font-size: 1.5em;
+        padding: 20px 0 20px 0;        
+    }
+    */
+
+    #gallery-who .icon-block p {
+        width: 100%;
+        text-align: justify;
+        line-height: 1.75;
+        
+    }
+
+    /***********************************
+    CAROUSEL
+    ***********************************/
+
+
+    .panel {
+        background: rgba(16, 90, 109, 0.7);
+        padding: 2% 3.5%;        
+        max-width: 40%;
+        position: absolute;
+        left: -35%;
+        top: 15%;
+        z-index: 999;
+    }
+
+    .panel p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.95em;
+        line-height: 1.75em;
+        text-align: justify;
+        color: white;
+    }
+    
+    .panel h2 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        font-size: 2.5em;
+    }
+
+    /***********************************
+    SECTION - WHY - HOW WE DO IT
+    ***********************************/
+
+    .wrapper-how {
+        max-width: 90%;
+        margin: 0 auto;        
+    }
+
+    #gallery-how .icon-block {
+        padding: 60px 0 60px 0;
+        display: inline-block;
+        text-align: center;
+        float: left;
+        width: 25%;
+        margin: 0 20% 0 4.166666666667%;
+    }
+
+    #gallery-how .icon-block h2 {
+        text-align: left;
+        font-weight: 400;
+        font-size: 2.5em;
+        margin: 0;
+        padding-top: 0;       
+    }
+
+    /*
+    #gallery-how .icon-block h4 {
+        font-weight: 400;
+        font-size: 1.5em;
+        padding: 20px 0 20px 0;        
+    }
+    */
+
+    #gallery-how .icon-block p {
+        width: 100%;
+        text-align: justify;
+        font-size: 0.95em;
+        line-height: 1.75;
+        
+    }
+
+    .wrapper-how img {        
+        max-width: 33%;
+        margin: 2% 0 0 0;
+    }
+
+    /***********************************
+    BANNER-2
+    ***********************************/
+
+    #banner-2 {
+        height: calc(100vh - 95.08px);
+    }
+
+    #banner-2 h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+        width: 80%;
+        font-size: 4em;
+    }
+
+    #banner-2 h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 60px;
+        width: 80%;
+        font-size: 2em;
+    }
+
+    /***********************************
+    FOOTER
+    ***********************************/
+
+    footer {
+        height: calc(100vh - 75px);        
+    }
+
+    footer .contatti {
+        padding-bottom: 40px;
+    }
+
+    footer .contact {
+        padding-bottom: 5px;
+        font-size: 0.85em;
+    }
+
+    footer .copy {
+        padding-bottom: 20px;
+        font-size: 0.85em;        
+    }
+
+    footer .totop {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        font-size: 0.9em;  
+    }
+
+    footer .bottom {
+        bottom: 20px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;   
+    }
+
+    footer .icon-social {
+        text-align: center;
+    }
+
+    footer .icon-social a img {
+        display: inline-block;
+        width: 30px;
+    }
+
+    .wrapper-foot {
+        font-family: 'Montserrat', sans-serif;
+        max-width: 100%;
+        margin: 0 auto;        
+    }
+
+    #gallery-foot .icon-block {
+        padding: 60px 0 60px 0;
+        display: inline-block;
+        text-align: center;
+        float: left;
+        width: 30%;
+        margin: 0 10%;
+    }
+
+    #gallery-foot .icon-block .btn {
+        padding-top: 10px;
+        display: inline-block;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+
+}
